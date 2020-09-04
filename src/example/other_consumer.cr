@@ -4,8 +4,15 @@ require "../messages/*"
 
 class ProtoMatcher2 < RailwayIpc::Handler
   handle_message Commands::DoAThing
+  handle_message Events::AThingWasDone
 
   def call(payload : Events::AThingWasDone, metadata)
+    puts "Handling an Event"
+    p metadata
+    p payload
+  end
+  def call(payload : Commands::DoAThing, metadata)
+    puts "Handling a command"
     p metadata
     p payload
   end
