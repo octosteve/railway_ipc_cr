@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CrystalDoc.Query	lib/amqp-client/docs/js/doc.js	/^CrystalDoc.Query = function(string) {$/;"	c
+CrystalDoc.Query.normalizeTerm	lib/amqp-client/docs/js/doc.js	/^CrystalDoc.Query.normalizeTerm = function(term) {$/;"	f
+CrystalDoc.Query.stripModifiers	lib/amqp-client/docs/js/doc.js	/^CrystalDoc.Query.stripModifiers = function(term) {$/;"	f
+CrystalDoc.displaySearchResults	lib/amqp-client/docs/js/doc.js	/^CrystalDoc.displaySearchResults = function(results, query) {$/;"	f
+CrystalDoc.initializeIndex	lib/amqp-client/docs/js/doc.js	/^CrystalDoc.initializeIndex = function(data) {$/;"	f
+CrystalDoc.loadIndex	lib/amqp-client/docs/js/doc.js	/^CrystalDoc.loadIndex = function() {$/;"	f
+CrystalDoc.prefixForType	lib/amqp-client/docs/js/doc.js	/^CrystalDoc.prefixForType = function(type) {$/;"	f
+CrystalDoc.rankResults	lib/amqp-client/docs/js/doc.js	/^CrystalDoc.rankResults = function(results, query) {$/;"	f
+CrystalDoc.runQuery	lib/amqp-client/docs/js/doc.js	/^CrystalDoc.runQuery = function(query) {$/;"	f
+CrystalDoc.search	lib/amqp-client/docs/js/doc.js	/^CrystalDoc.search = function(string) {$/;"	f
+CrystalDoc.toggleResultsList	lib/amqp-client/docs/js/doc.js	/^CrystalDoc.toggleResultsList = function(visible) {$/;"	f
+Navigator	lib/amqp-client/docs/js/doc.js	/^Navigator = function(sidebar, searchInput, list, leaveSearchScope){$/;"	c
+UsageModal	lib/amqp-client/docs/js/doc.js	/^var UsageModal = function(title, content) {$/;"	c
+clearMoveTimeout	lib/amqp-client/docs/js/doc.js	/^  function clearMoveTimeout() {$/;"	f	function:Navigator
+crystal_doc_search_index_callback	lib/amqp-client/docs/js/doc.js	/^function crystal_doc_search_index_callback(data) {$/;"	f
+delayWhileSearching	lib/amqp-client/docs/js/doc.js	/^  function delayWhileSearching(callback) {$/;"	f	function:Navigator
+escapeRegExp	lib/amqp-client/docs/js/doc.js	/^    function escapeRegExp(s) {$/;"	f	function:highlight
+focus	lib/amqp-client/docs/js/doc.js	/^  this.focus = function() {$/;"	m	class:Navigator
+handleInputKeyDown	lib/amqp-client/docs/js/doc.js	/^  function handleInputKeyDown(event) {$/;"	f
+handleInputKeyUp	lib/amqp-client/docs/js/doc.js	/^  function handleInputKeyUp(event) {$/;"	f
+handleKeyDown	lib/amqp-client/docs/js/doc.js	/^  function handleKeyDown(event) {$/;"	f	function:Navigator
+handleKeyUp	lib/amqp-client/docs/js/doc.js	/^  function handleKeyUp(event) {$/;"	f	function:Navigator
+hide	lib/amqp-client/docs/js/doc.js	/^  this.hide = function(){$/;"	m	class:UsageModal
+highlight	lib/amqp-client/docs/js/doc.js	/^  this.highlight = function(elem) {$/;"	m	class:Navigator
+highlight	lib/amqp-client/docs/js/doc.js	/^  this.highlight = function(string) {$/;"	m	class:CrystalDoc.Query
+highlightFirst	lib/amqp-client/docs/js/doc.js	/^  this.highlightFirst = function(){$/;"	m	class:Navigator
+isVisible	lib/amqp-client/docs/js/doc.js	/^  this.isVisible = function(){$/;"	m	class:UsageModal
+loadJSON	lib/amqp-client/docs/js/doc.js	/^  function loadJSON(file, callback) {$/;"	f	function:CrystalDoc.loadIndex
+loadScript	lib/amqp-client/docs/js/doc.js	/^  function loadScript(file) {$/;"	f	function:CrystalDoc.loadIndex
+matches	lib/amqp-client/docs/js/doc.js	/^  this.matches = function(field) {$/;"	m	class:CrystalDoc.Query
+matchesMethod	lib/amqp-client/docs/js/doc.js	/^  this.matchesMethod = function(name, kind, type) {$/;"	m	class:CrystalDoc.Query
+matchesNamespace	lib/amqp-client/docs/js/doc.js	/^  this.matchesNamespace = function(namespace){$/;"	m	class:CrystalDoc.Query
+moveLeft	lib/amqp-client/docs/js/doc.js	/^  this.moveLeft = function(){$/;"	m	class:Navigator
+moveRight	lib/amqp-client/docs/js/doc.js	/^  this.moveRight = function(){$/;"	m	class:Navigator
+namespaceMatcher	lib/amqp-client/docs/js/doc.js	/^  function namespaceMatcher(normalized, term){$/;"	f	function:CrystalDoc.Query
+openSelectedResult	lib/amqp-client/docs/js/doc.js	/^  this.openSelectedResult = function() {$/;"	m	class:Navigator
+parseJSON	lib/amqp-client/docs/js/doc.js	/^  function parseJSON(json) {$/;"	f	function:CrystalDoc.loadIndex
+removeHighlight	lib/amqp-client/docs/js/doc.js	/^  this.removeHighlight = function() {$/;"	m	class:Navigator
+runMatcher	lib/amqp-client/docs/js/doc.js	/^  function runMatcher(field, matcher) {$/;"	f	function:CrystalDoc.Query
+sanitize	lib/amqp-client/docs/js/doc.js	/^  function sanitize(html){$/;"	f	function:CrystalDoc.displaySearchResults
+scrollCenter	lib/amqp-client/docs/js/doc.js	/^  function scrollCenter(element) {$/;"	f	function:Navigator
+searchConstant	lib/amqp-client/docs/js/doc.js	/^  function searchConstant(constant, type, query, results) {$/;"	f	function:CrystalDoc.runQuery
+searchMethod	lib/amqp-client/docs/js/doc.js	/^  function searchMethod(method, type, kind, query, results) {$/;"	f	function:CrystalDoc.runQuery
+searchType	lib/amqp-client/docs/js/doc.js	/^  function searchType(type, query, results) {$/;"	f	function:CrystalDoc.runQuery
+show	lib/amqp-client/docs/js/doc.js	/^  this.show = function(){$/;"	m	class:UsageModal
+startMoveTimeout	lib/amqp-client/docs/js/doc.js	/^  function startMoveTimeout(upwards){$/;"	f	function:Navigator
+uniqueArray	lib/amqp-client/docs/js/doc.js	/^  function uniqueArray(ar) {$/;"	f	function:CrystalDoc.rankResults
+xobj.onreadystatechange	lib/amqp-client/docs/js/doc.js	/^    xobj.onreadystatechange = function() {$/;"	f
